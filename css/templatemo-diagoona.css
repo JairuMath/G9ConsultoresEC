@@ -76,10 +76,10 @@ p { line-height: 1.9; }
     height: 100%;
 }
 
-.tm-bg-right { background-color: rgba(0,0,0,0.5); }
+.tm-bg-right { background-color: rgba(0, 0, 0, 0.86); }
 
 .tm-bg-left {
-    border-right: 230px solid rgba(0,0,0,0.5);
+    border-right: 230px solid rgba(0,0,0,0.86);
     border-top: 100vh solid transparent;
 }
 
@@ -92,14 +92,14 @@ p { line-height: 1.9; }
     display: inline-block;
     width: 14px;
     height: 14px;
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgba(255,255,255,0.66);
     margin: 6px;
     cursor: pointer;
 }
 
 .tm-bg-control.active,
 .tm-bg-control:hover {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.719);
 }
 
 .tm-container {
@@ -134,7 +134,7 @@ p { line-height: 1.9; }
     padding-right: 20px;
 }
 
-.tm-about { max-width: 525px; }
+.tm-about { max-width: 600px; }
 
 ::-webkit-scrollbar {
     -webkit-appearance: none;
@@ -186,9 +186,9 @@ hr { border-top: 1px solid white; }
 }
 
 /* Service */ 
-.tm-service-text { max-width: 365px; }
-.tm-service-img { margin-right: 25px; }
-.tm-service-img-r { margin-left: 25px; }
+.tm-service-text { max-width: 565px; }
+.tm-service-img { margin-right: 10px; }
+.tm-service-img-r { margin-left: 10px; }
 
 /* Contact */
 .form-control,

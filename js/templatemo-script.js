@@ -1,13 +1,16 @@
 const initBg = (autoplay = true) => {
-    const bgImgsNames = ['slide1.jpg','slide2.jpg','slide3.jpg','slide4.jpg','slide5.jpg','slide6.jpg','slide0.jpg'];
-    const bgImgs = bgImgsNames.map(img => "img/" + img);
+    const bgImgsNames = ['slide1.jpg','slide2.jpg','slide3.jpg','slide4.jpg','slide5.jpg','slide6.jpg'];
+    const bgImgs = bgImgsNames.map(img => "img/" + img );
+    
 
     $.backstretch(bgImgs, {duration: 4000, fade: 500,});
+    
 
     if(!autoplay) {
       $.backstretch('pause');  
     }    
 }
+
 
 const setBg = id => {
     $.backstretch('show', id);
